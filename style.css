@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vehicles-container {
+    display: flex;
+}
+
+.vehicle{
+    background-color: blue;
+    padding: 2.5rem;
+}
+
+.vehicle:nth-child(1){
+    background-color:aliceblue;
+}
+/*classes always get a dot, elements always get no dot*/
